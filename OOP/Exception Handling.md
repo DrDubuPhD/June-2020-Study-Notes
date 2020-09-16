@@ -19,6 +19,8 @@
     - [Order of Exception Classes](#order-of-exception-classes)
   - [Finally Block](#finally-block)
     - [Interesting Case](#interesting-case)
+  - [Defining Own Exceptions](#defining-own-exceptions)
+    - [Circle Radius Exception](#circle-radius-exception)
 
 ---
 
@@ -307,3 +309,36 @@ finally {
 ```
 
 Suppose code1 throws `Exception1`, the exception is handled, then the finally block is executed then it goes back to execute the `throw ex`
+
+## Defining Own Exceptions
+
+Must first extend from the `Exception` class or its subclasses
+
+### Circle Radius Exception
+
+In Circle.java
+
+```java
+class Circle {
+    double radius;
+
+    public Circle (double r) throws InvalidRadiusException {
+        if (r <= 0)
+            throw new InvalidRadiusException(r);
+        else
+            this.radius = r;
+    }
+}
+```
+
+In InvalidRadiusException.java
+
+```java
+class InvalidRadiusException extends Exception {
+
+    public InvalidRadiusException (double r) {
+        super("Invalid Radius: " + r); //Error message
+    }
+
+}
+```
