@@ -7,7 +7,6 @@
   - [Reading Data using Scanner](#reading-data-using-scanner)
     - [Scanner Methods](#scanner-methods)
     - [`hasNext()` Method](#hasnext-method)
-  - [Binary Files](#binary-files)
     - [Binary I/O Classes](#binary-io-classes)
     - [Binary File Output](#binary-file-output)
     - [Binary File Input](#binary-file-input)
@@ -123,7 +122,7 @@ inputFile.close();
 
 ---
 
-## Binary Files
+W## Binary Files
 
 Binary I/O does not require encoding/decoding unlike Text I/O
 
