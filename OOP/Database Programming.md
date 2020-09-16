@@ -166,7 +166,7 @@ while (rsTables.next())
 #### Applying DatabaseMetaData
 
 ```java
-// To avoid hard coding this 
+// To avoid hard coding this
 // int nc = 4 // no. of cols
 
 // We make use of MetaData
