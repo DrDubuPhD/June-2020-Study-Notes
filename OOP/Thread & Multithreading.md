@@ -6,6 +6,7 @@
     - [Advatanges of Java Multithreading](#advatanges-of-java-multithreading)
   - [How to create a thread](#how-to-create-a-thread)
     - [Creating a task and a thread](#creating-a-task-and-a-thread)
+      - [Code](#code)
   - [The Thread Class](#the-thread-class)
     - [Notable Methods](#notable-methods)
   - [Lifecycle of Thread](#lifecycle-of-thread)
@@ -61,6 +62,37 @@ The method `run()` needs to be overridden from the interface
 Soooo a `Task` **must be executed** in a `Thread` (using the constructor)
 
 then by invoking the `.start()` method
+
+#### Code
+
+In CustomTask.java
+
+```java
+public class myTask implements Runnable {
+  public TaskClass() {
+    // Constructor
+  }
+
+  // From the Runnable
+  public void run() {
+    // The task code
+  }
+}
+```
+
+In ThreadApp.java
+
+```java
+public class ThreadApp {
+  public static void main (String[] args) {
+    myTask taskForThread1 = new myTask();
+
+    Thread thread1 = new Thread(taskForThread1);
+
+    thread1.start(); // Executes the run() method
+  }
+}
+```
 
 ## The Thread Class
 
