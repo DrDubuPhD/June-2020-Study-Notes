@@ -14,6 +14,7 @@
   - [Product Rule](#product-rule)
   - [Probabilistic Inference](#probabilistic-inference)
   - [Inference by enumeration](#inference-by-enumeration)
+  - [Causal and Diagnostic Probability](#causal-and-diagnostic-probability)
 
 ## Random Variable
 
@@ -110,3 +111,16 @@ Compute a desired probability from other know probas (e.g conditional from joint
 ## Inference by enumeration
 
 ![InferByEnum](Image/InferenceByEnum.jpg)
+
+## Causal and Diagnostic Probability
+
+Take Cause = Dengue, Effect = Fever
+
+Usually we have $P($Effect$|$Cause$)$, **causal probability**
+
+We want this $P($Cause$|$Effect$)$, **diagnostic probability**
+
+So we need **Bayes Rule** to help us get the reverse
+
+$P(x|y) = \frac{P(y|x)P(x)}{P(y)}$ OR $P($Cause$|$Effect$) =$ $\frac{P(Effect|Cause)P(Cause)}{P(Effect)}$
+
