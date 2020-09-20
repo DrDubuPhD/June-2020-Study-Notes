@@ -121,21 +121,21 @@ We have 2 methods
 
 Consider **4 factors**
 
-- Time Complexity
-  - How long does it take to find a solution?
-  - Measured in terms of no. of nodes generated during search
+1. Time Complexity
+   - How long does it take to find a solution?
+   - Measured in terms of no. of nodes generated during search
 
-- Space Complexity
-  - How much mem needed?
-  - Maximum no. of nodes stored in mem at a particular time
+2. Space Complexity
+   - How much mem needed?
+   - Maximum no. of nodes stored in mem at a particular time
 
-- Completeness
-  - Will a solution be guaranteed if it exists?
-  - Measured whether the search tree is complete?
+3. Completeness
+   - Will a solution be guaranteed if it exists?
+   - Measured whether the search tree is complete?
 
-- Optimality
-  - Is the best solution found if several exists?
-  - Measured in terms of **total search cost**
+4. Optimality
+   - Is the best solution found if several exists?
+   - Measured in terms of **total search cost**
 
 ### Evaluating Search Tree
 
