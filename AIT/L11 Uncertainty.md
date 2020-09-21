@@ -66,7 +66,7 @@ It is a **set** of outcomes for the **set of RV** (inferred from Joint Distribut
 
 Add up all the entries which are consistent with the event
 
-$P(E) = \sum_{x_1, x_2, ..., x_n} P(x_1, x_2, ..., x_n)$ 
+$P(E) = \sum_{x_1, x_2, ..., x_n} P(x_1, x_2, ..., x_n)$
 
 Example : Find the probability of hazy
 
@@ -123,4 +123,3 @@ We want this $P($Cause$|$Effect$)$, **diagnostic probability**
 So we need **Bayes Rule** to help us get the reverse
 
 $P(x|y) = \frac{P(y|x)P(x)}{P(y)}$ OR $P($Cause$|$Effect$) =$ $\frac{P(Effect|Cause)P(Cause)}{P(Effect)}$
-
