@@ -5,7 +5,7 @@
 ## Sample JavaFX Program
 
 ```java
-public guiApp extends Application { //Application class provides all JavaFx components 
+public guiApp extends Application { //Application class provides all JavaFx components
     @Override //must implement this method as it is abstract
     public void start(Stage primaryStage) {
         //Node
@@ -18,7 +18,7 @@ public guiApp extends Application { //Application class provides all JavaFx comp
         primaryStage.setResizable(false); //The user can't maximize the window
         primaryStage.show();
     }
-    
+
     public static void main(String[] args) {
         launch(args); //launching the JavaFX application
     }
@@ -29,11 +29,11 @@ public guiApp extends Application { //Application class provides all JavaFx comp
 
 ```mermaid
 graph LR
-Node --> Scene; 
+Node --> Scene;
 Scene --> Stage;
 ```
 
- A **node** resides in a **scene** (node container), and the **scene** is placed in a **stage**.
+A **node** resides in a **scene** (node container), and the **scene** is placed in a **stage**.
 
 ---
 
@@ -44,7 +44,7 @@ Parent --> Scene;
 Scene --> Stage;
 ```
 
-A parent could be a **Pane** or **UI control**, and a **Pane** is the following, 
+A parent could be a **Pane** or **UI control**, and a **Pane** is the following,
 
 - `FlowPane`
 - `GridPane`
@@ -61,7 +61,7 @@ Scene scene1 = new Scene(Parent, width, height);
 Scene scene2 = new Scene(Parent);
 ```
 
-Scene must **contain a parent**, not a ***Shape/ImageView***
+Scene must **contain a parent**, not a **_Shape/ImageView_**
 
 ---
 
@@ -266,13 +266,13 @@ class MainApp extends Application {
         OkHandlerClass handler1 = new OkHandlerClass();
         btOk.setOnAction(handler1) //Step 1: Registering the handler
     }
-    
+
     class OKHandlerClass implements EventHandler<ActionEvent> { //Implementing an action event handler class
-   		@Override
-    	public void handle(ActionEvent e) {
-        	System.out.println("OK Button Clicked");
-    	}
-	}
+        @Override
+        public void handle(ActionEvent e) {
+            System.out.println("OK Button Clicked");
+        }
+    }
 }
 ```
 
@@ -298,20 +298,20 @@ btOk.setOnAction(new EventHandler<ActionEvent>() {
 
 ```java
 btEnlarge.setOnAction(e -> {
-   //Code here 
+   //Code here
 });
 
 //4 styles of lambda
 btEnlarge.setOnAction((ActionEvent e) -> {
-   //Code here 
+   //Code here
 });
 
 btEnlarge.setOnAction((e) -> {
-   //Code here 
+   //Code here
 });
 
 btEnlarge.setOnAction(e -> {
-   //Code here 
+   //Code here
 });
 
 btEnlarge.setOnAction(e -> System.out.println("Process Print"));
@@ -397,7 +397,7 @@ TextArea(String text);
 TextArea taNote = new TextArea("This is a text area");
 taNote.setPrefColumnCount(20); //Default = 40
 taNote.setPrefRowCount(5); //Default = 10
-taNote.setWrapText(true); 
+taNote.setWrapText(true);
 ```
 
 ### ComboBox
@@ -421,4 +421,3 @@ cbo.getItems().addAll(items);
 ```
 
 ## Mouse Events
-

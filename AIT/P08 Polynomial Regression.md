@@ -31,7 +31,7 @@ print(X[:5])
 poly = PolynomialFeatures(degree = 2, include_bias = False) #linreg will handle the bias in .fit()
 
 # Task: use poly to transform X to Xp
-# Xp = 
+# Xp =
 Xp = poly.fit_transform(X)
 
 print('\nAfter adding polynomial term:')
@@ -44,11 +44,11 @@ print(Xp[:5])
 from sklearn.preprocessing import StandardScaler
 
 # Task: create instance of StandardScaler
-# scaler = 
+# scaler =
 scaler = StandardScaler()
 
 # Task: use scaler to transform Xp to Xps
-# Xps = 
+# Xps =
 Xps = scaler.fit_transform(Xp)
 
 print('After standardization:')
@@ -61,13 +61,13 @@ Use normal LR and calculate RMSE
 
 ### Controlling Overfitting with Regularization
 
-##### Modify the cost function by adding a regularization term
+#### Modify the cost function by adding a regularization term
 
 $$
 j(\theta)=MSE(\theta)+\alpha\frac{1}{2}\sum_{i=1}^{n}{\theta_i^2}
 $$
 
-##### Regularized Normal Equation
+#### Regularized Normal Equation
 
 $$
 \hat{\theta}=(X^T\cdot{X}+\alpha{A})^{-1}X^T\cdot{y}
@@ -111,11 +111,11 @@ def show_samples(X, y, axis=[0,2,0,12]):
 ```python
 def plot_polymodel (linreg, poly, scaler, style, label):
     # generate uniformly spaced samples in the range [-10, 10]
-    Xtest =  np.linspace(-10, 10, 100).reshape(-1, 1) 
+    Xtest =  np.linspace(-10, 10, 100).reshape(-1, 1)
     # subjected to the same preprocessing steps as the training set
     Xtest_p  = poly.transform(Xtest)
     Xtest_ps = Xtest_p
-    if scaler != None:       
+    if scaler != None:
         Xtest_ps = scaler.transform(Xtest_p)
     # predict and plot
     h = linreg.predict(Xtest_ps)
@@ -139,4 +139,3 @@ plot_polymodel(ridge_reg, poly, scaler, 'r-', 'alpha = 0.1')
 plt.legend()
 plt.show()
 ```
-
