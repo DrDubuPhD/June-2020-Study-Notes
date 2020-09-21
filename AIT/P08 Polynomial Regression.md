@@ -4,11 +4,17 @@
 
 ## Concept
 
-Linear model may encounter underfitting, we can **add polynomial terms** to the input matrix.
+Linear model may encounter **underfitting**
 
-But,
+- It is not powerful
+- Not expressive (No twist and curves)
+- Extra samples will not help
 
-Polynomial terms may cause **overflowing issues**, ==scaling== is required.
+But we can **add polynomial terms** to the input matrix
+
+- Allows linear model to fit non-linear data
+
+Polynomial terms may cause **overflowing issues**, ==feature scaling== is required.
 
 ## Pipeline
 
@@ -21,7 +27,7 @@ print('Before adding polynomial term:')
 print(X[:5])
 
 # Task: create instance of PolynomialFeatures
-# poly = 
+# poly =
 poly = PolynomialFeatures(degree = 2, include_bias = False) #linreg will handle the bias in .fit()
 
 # Task: use poly to transform X to Xp
