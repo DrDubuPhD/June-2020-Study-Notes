@@ -149,7 +149,7 @@ catch (InputMismatchException ex) {
 
 ### Declaring Exceptions
 
-A ***checked*** exception must be delcared using `throws` at the method header, this is known as **declaring exceptions**
+A **_checked_** exception must be delcared using `throws` at the method header, this is known as **declaring exceptions**
 
 It is allowed to declare more than 1 exception
 
@@ -164,6 +164,7 @@ public int method2() throws ArithmeticException, InputMismatchException, IOExcep
         // the keyword throw is used in the method body to fire the exception
 }
 ```
+
 ---
 
 ### Catching Exceptions
@@ -260,7 +261,7 @@ void p1() {
 }
 ```
 
-**OR**
+OR
 
 ```java
 void p1() throws IOException {
