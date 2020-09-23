@@ -3,7 +3,7 @@
 - [Multithreading](#multithreading)
   - [Multitasking vs Multithreading](#multitasking-vs-multithreading)
   - [Java Thread Model](#java-thread-model)
-    - [Advatanges of Java Multithreading](#advatanges-of-java-multithreading)
+    - [Advantages of Java Multithreading](#advantages-of-java-multithreading)
   - [How to create a thread](#how-to-create-a-thread)
     - [Creating a task and a thread](#creating-a-task-and-a-thread)
       - [Code](#code)
@@ -38,7 +38,7 @@ A thread in Java exists in several states
 - **Blocked** : Can happen when waiting for resource
 - **Terminated** : Halts completely, no resume
 
-### Advatanges of Java Multithreading
+### Advantages of Java Multithreading
 
 - Threads are independent
 - Saves time
@@ -48,8 +48,8 @@ A thread in Java exists in several states
 
 2 ways to do it
 
-- Implementing the `Runnable` interface
-- Extending the `Thread` class
+- Implementing the `Runnable` interface (Covered Here)
+- Extending the `Thread` class (Refer JenkovTutorial)
 
 ### Creating a task and a thread
 
@@ -62,6 +62,8 @@ The method `run()` needs to be overridden from the interface
 Soooo a `Task` **must be executed** in a `Thread` (using the constructor)
 
 then by invoking the `.start()` method
+
+> **Threads have a default value of 5**
 
 #### Code
 

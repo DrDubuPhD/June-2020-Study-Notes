@@ -110,6 +110,3 @@ Phrases include:
 ## Bandwagon
 
 > **Def :** Assumption that the opinion of the majority is always valid: that is, everyone believes it, so you should too.
-
-
-
