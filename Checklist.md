@@ -1,43 +1,43 @@
 # Checklist
 
 - [Checklist](#checklist)
-  - [CRT 🚀](#crt-)
-  - [OOP 🐕](#oop-)
-  - [Website 💻](#website-)
+  - [CRT 🚀 (Done ✅)](#crt--done-)
+  - [OOP 🐕 (Done ✅)](#oop--done-)
+  - [Website 💻 (Done ✅)](#website--done-)
   - [AIT 🤖](#ait-)
-  - [AA 💹](#aa-)
+  - [AA 📈](#aa-)
 
-## CRT 🚀
+## CRT 🚀 (Done ✅)
 
 - [x] Fallacy
 
-## OOP 🐕
+## OOP 🐕 (Done ✅)
 
 - [x] Unit 8 - 9 (GUI and Even Handling)
-- [ ] Unit 10 (File I/O) - 11 (Database)
+- [x] Unit 10 (File I/O) - 11 (Database)
 - [x] Unit 10 (Exception Handling) - 12 (Thread)
-- [X] Unit 1-7 (Basic and Concept OOPs)
+- [x] Unit 1-7 (Basic and Concept OOPs)
 
-## Website 💻
+## Website 💻 (Done ✅)
 
-- [x] Web Hosting
-- [X] Intro to HTML
-- [X] HTML Multimedia
-- [X] CSS
-- [X] Javascript
-- [X] jQuery Part 1
-- [X] Javascript Object
-- [X] jQuery Part 2
-- [X] Cookies, Session Storage and Local Storage
+- [x] Web Hosting + HTML
+- [x] HTML + CSS
+- [x] HTML Multimedia + JS/jQuery (Focus JSON, cookie or webstorage)
+- [x] JavaScript or jQuery (Focus JSON)
 
 ## AIT 🤖
 
 - [x] Search Problem & Algorithms (L9, L10)
 - [x] Uncertainty & Bayesian Networks (L11, L12)
-- [ ] Machine Learning Pipeline (L3, L4)
-- [ ] Linear Model Training (L5, L6, L7)
+- [ ] Machine Learning Pipeline
+  - [ ] L3 (Note Done, Revise Only)
+  - [ ] L4 (Note Done, Revise Only)
+- [ ] Linear Model Training
+  - [x] L5
+  - [x] L6
+  - [ ] L7
 
-## AA 💹
+## AA 📈
 
 - [x] Asymptotic Notations (L2)
 - [x] Solving Recurrence (L3)
