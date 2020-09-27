@@ -29,9 +29,9 @@
 
 - [x] Search Problem & Algorithms (L9, L10)
 - [x] Uncertainty & Bayesian Networks (L11, L12)
-- [ ] Machine Learning Pipeline
-  - [ ] L3 (Note Done, Revise Only)
-  - [ ] L4 (Note Done, Revise Only)
+- [x] Machine Learning Pipeline
+  - [x] L3 (Note Done, Revise Only)
+  - [x] L4 (Note Done, Revise Only)
 - [ ] Linear Model Training
   - [x] L5
   - [x] L6
@@ -41,5 +41,8 @@
 
 - [x] Asymptotic Notations (L2)
 - [x] Solving Recurrence (L3)
-- [ ] Design And Analysis of Algorithms (L4, L5, L6)
+- [ ] Design And Analysis of Algorithms
+  - [x] L4
+  - [ ] L5
+  - [ ] L6 
 - [ ] Binary Tree (L7)

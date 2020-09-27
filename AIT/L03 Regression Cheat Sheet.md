@@ -10,7 +10,7 @@
 2. Map the input features, $x$
 3. To targeted variable, $y$
 
-### I/O 
+### I/O
 
 Input features, $x$ usually a **matrix** (represented using `pd.DataFrame()`)
 
@@ -47,7 +47,7 @@ Output vector $y$, of size (m, ) ==**if (m, ) means rank 1**==
    - **Check scaling**
    - **Tail Heavy**
    - `df.attribute1.value_counts()`
-3. Look for correlation 
+3. Look for correlation
    - `df.corr()` - high corr makes ML hard to learn
 
 ### Data Preparation
@@ -77,11 +77,11 @@ Makes data more suitable for ML algorithms
 
      1. Min-max scaling
 
-        <img src="C:\Users\seann\AppData\Roaming\Typora\typora-user-images\image-20200810213132106.png" alt="image-20200810213132106" style="zoom:50%;" />
+        ![minmax](Image/minmax.jpg)
 
      2. Standardization (preferred)
 
-        ​																				$x' =  \frac{x - mean}{stddev}$
+        ​ $x' =  \frac{x - mean}{stddev}$
 
    - Label Encoding
 
@@ -107,10 +107,5 @@ Might overfit validation set
 #### k-fold Validation
 
 1. k usually odd
-2. average estimates performace of model (**higher better**)
+2. average estimates performance of model (**higher better**)
 3. std tells you the reliability (if high, cross-validation error could be imprecise)
-
-### Fine Tuning
-
-#### Grid Search
-
