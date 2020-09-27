@@ -44,5 +44,5 @@
 - [ ] Design And Analysis of Algorithms
   - [x] L4
   - [ ] L5
-  - [ ] L6 
+  - [ ] L6
 - [ ] Binary Tree (L7)
