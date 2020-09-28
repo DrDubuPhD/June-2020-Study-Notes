@@ -43,6 +43,6 @@
 - [x] Solving Recurrence (L3)
 - [ ] Design And Analysis of Algorithms
   - [x] L4
-  - [ ] L5
+  - [x] L5
   - [ ] L6
 - [ ] Binary Tree (L7)
